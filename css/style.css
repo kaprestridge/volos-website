@@ -1,0 +1,22 @@
+body{
+    background-color: #babcb3;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 20px;
+    background-image: linear-gradient(#524138, transparent);
+    text-shadow: 1px 1px white;
+}
+
+#volo-profile-photo{
+   border-radius: 60%;
+}
+
+#index-content{
+    display: flex;
+    flex-shrink: ;
+}
+
