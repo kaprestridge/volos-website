@@ -51,6 +51,60 @@ h1{
     width: 200px;
 
 }
+form{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    background-image: radial-gradient(grey, transparent);
+    padding: 10%;
+   max-width: 400px;
+}
+#testimonials{
+
+}
+.testimonial-tile{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-bottom: 80px;
+}
+.testimonial-face{
+    width: 100px;
+    border-radius: 20px;
+}
+
+.box {
+    width: 300px;
+    background: white;
+    padding: 20px;
+    text-align: center;
+    font-weight: 900;
+    position:relative;
+  }
+  .speech-left:before {
+    content: "";
+    width: 0px;
+    height: 0px;
+    position: absolute;
+    border-left: 10px solid transparent;
+    border-right: 10px solid white;
+    border-top: 10px solid white;
+    border-bottom: 10px solid transparent;
+    left: -19px;
+    top: 6px;
+  }
+  .speech-right:before {
+    content: "";
+    width: 0px;
+    height: 0px;
+    position: absolute;
+    border-left: 10px solid white;
+    border-right: 10px solid transparent;
+    border-top: 10px solid white;
+    border-bottom: 10px solid transparent;
+    right: -19px;
+    top: 6px;
+  }
 
 /* CSS for smaller screens */
 @media only screen and (max-width: 600px) {
