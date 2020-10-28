@@ -24,6 +24,7 @@ h1{
 
 #index-content{
     display: flex;
+    flex-wrap: wrap;
     padding: 10%;
     justify-content: space-between;
     text-justify: distribute-all-lines;
