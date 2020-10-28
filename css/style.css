@@ -24,15 +24,15 @@ h1{
 
 #index-content{
     display: flex;
-    flex-wrap: wrap;
     flex-direction: row;
+    flex-wrap: wrap;
     padding: 10%;
     justify-content: space-between;
     text-justify: distribute-all-lines;
 }
 
 #tavern-scene{
-    width: 40%;
+    width: 400px;
     padding-right: 0;
     border-radius: 10px;
 }
