@@ -24,6 +24,7 @@ h1{
 
 #index-content{
     display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
     padding: 10%;
     justify-content: space-between;
@@ -31,7 +32,7 @@ h1{
 }
 
 #tavern-scene{
-    width: 40%;
+    width: 400px;
     padding-right: 0;
     border-radius: 10px;
 }
